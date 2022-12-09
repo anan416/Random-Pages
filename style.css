@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+*{
+    font-family: 'Short Stack', cursive;
+}
+
+h1{
+    text-align: center;
+    background-color: #3B7CD3;
+    color:#fff;
+    line-height: 3;
+    border-style: dashed;
+}
+
+h3{
+    text-align: center;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+a{
+    text-decoration: none;
+    margin:1cm;
+    color:#fff;    
+    background-color: #3B7CD3;
+    padding: 60px;
+    border-style: dashed;
+    font-size: 30px;
+}
+
+@media(max-width: 1300px){
+    .contenedor{
+        flex-direction: column;
+    }
+}
